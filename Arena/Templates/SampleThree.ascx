@@ -469,7 +469,7 @@
 		<td colspan="3">
 		    <table id="mainContent" border="0" cellspacing="0" cellpadding="0" align="center">
 	            <tr>
-	            	<td id="leftTopCell">&nbsp;</td>
+	            	<td id="leftTopCell" >&nbsp; &nbsp; &nbsp;</td>
 	            	<td id="centerTopCell">&nbsp;</td>
 	            	</tr>
 	            <tr>
