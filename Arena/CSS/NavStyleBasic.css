@@ -1,0 +1,56 @@
+.TopItem
+{
+  color: #54585B;
+  font-family: tahoma, verdana; 
+  font-size: 11px; 
+  font-weight: bold;
+  padding: 4px 0 2px 4px;
+  cursor:pointer;
+  height: 26px;
+  width: 208px;
+  background-image: url(../Include/ComponentArt/Images/GroupButton.png);
+  background-repeat: no-repeat;
+}
+
+.TopTable
+{
+	width: 208px;
+	height: 26px;
+}
+
+.Level2Item
+{
+  font-family: tahoma, verdana; 
+  font-size: 11px; 
+  cursor:pointer;
+  padding: 5px;
+}
+
+.Level2Item a
+{
+	text-decoration: none;
+	font: inherit; 
+	color: #000000;
+}
+
+.Level2Item:hover, .Level2Item a:hover
+{
+  font-family: tahoma, verdana; 
+  font-size: 11px; 
+  text-decoration:underline;
+  cursor:pointer;
+}
+
+.Level2Group
+{
+  background-color: #F7F6F6;
+  width: 200px;
+  margin:0 0 0 0;
+  padding: 0;
+  border-bottom: 1px solid #cccccc;
+}
+
+.navSeparator
+{
+	height: 6px;
+}

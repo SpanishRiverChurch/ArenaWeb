@@ -1,0 +1,2532 @@
+/* commented backslash hack \*/
+html, body
+{
+	height: 100%;
+}
+/* end hack */
+
+body
+{	
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+textarea, input {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: .9em;
+}
+ol li {
+padding: 10px;
+}
+#frmMain
+{
+	height: 100%;
+	min-height: 100%;
+}
+
+#QuickSearchTable
+{
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+#PageContent 
+{
+	width: 100%; 
+	height: 100%; 
+	vertical-align: top;
+}
+
+#pageTitleSearch
+{
+	width: 208px;
+}
+
+.banner
+{
+	height: 52px; 
+	background-image:url(../images/arenaBasicBannerStripes.jpg);
+	background-repeat:repeat-x;
+}
+
+.banner td:first-child
+{
+	vertical-align: bottom;
+	padding: 0 0 15px 15px; 
+}
+
+.banner td:last-child
+{
+	color: #cdcdcd;
+	font-size: .8em;
+	cursor: pointer;
+	vertical-align: top;
+}
+
+.banner td:last-child img
+{
+	padding: 4px 20px 0 0;
+	cursor: pointer;
+}
+
+.pageBanner
+{
+	width: 100%; 
+	background-image: url(../images/pageTitleHeader.png);
+	background-repeat: repeat-x;
+	height: 54px;
+}
+
+.MainContent
+{
+	padding-right:10px;
+}
+
+.RightContent
+{
+	width:250px;
+	padding-right:5px;
+}
+
+.FooterContent
+{
+}
+
+h2
+{
+	color: #555;
+	font-size: 1.25em;
+	margin: 0px;
+	padding: 10px 5px 0px 0px;
+}
+h3
+{
+	color: #999;
+	border-bottom: 1px solid #ccc;
+	padding-top: 5px;
+	padding-bottom: 2px;
+	font-size: .8em;
+	margin: 10px 0px 0px 0px;
+}
+h4
+{
+	color: #777;
+	font-size: 1em;
+	margin: 0px;
+	padding: 10px 5px 1px 0px;
+}
+h5
+{
+	margin-bottom: 0px;
+}
+h6
+{
+	margin: 0px;
+	padding: 10px 5px 1px 0px;
+}
+
+.searchHeader
+{
+	background-image: url(../images/search_header_c.jpg);
+	background-repeat: repeat-x;
+}
+.searchTitle
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	text-transform: none;
+	color: #666666;
+	font-weight: bold;
+	text-decoration: none;
+}
+.searchContent
+{
+	padding: 5px;
+}
+.highlightText
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #5B6274;
+	padding: 5px;
+}
+.footerText
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #4C4D4D;
+	line-height: 20px;
+	text-decoration: none;
+}
+.navText
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #292A2A;
+	line-height: 20px;
+	text-decoration: none;
+}
+.navText:Hover
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #08336D;
+	text-decoration: underline;
+}
+.navSelected
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #4C4D4D;
+	line-height: 20px;
+	text-decoration: none;
+}
+.navSelected:Hover
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #4C4D4D;
+	text-decoration: underline;
+}
+.searchForm
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+}
+.subNavText
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+	text-decoration: none;
+}
+.subNavText:Hover
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+	text-decoration: underline;
+}
+.pageTitle
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #54585B;
+	margin: 0 0 0 5px;
+}
+.pageDescription
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #54585B;
+	padding: 0;
+	height: 20px;
+}
+.logWrap
+{
+	display: inline;
+	color: white;
+	font-size: 9px;
+	padding: 0 25px 0 0;
+	position: relative;
+	bottom: 10px;
+}
+.logWrap a
+{
+	color: White;
+	padding: 0 0 0 0;
+}
+.pageTitleLogin
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: White;
+	font-size: 11px;
+	padding: 0 40px 0 0;
+	position: relative;
+	bottom: 8px;
+}
+.pageTitleLogin a
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: White;
+	font-size: 11px;
+}
+.normalText
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	text-decoration: none;
+}
+.boldText
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+	text-decoration: none;
+}
+.lightItalicText
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: italic;
+	color: #B1B1B1;
+	text-decoration: none;
+}
+.heading1
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	text-transform: none;
+	color: #666666;
+	font-weight: bold;
+	text-decoration: none;
+}
+.smallText
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+	text-decoration: none;
+}
+.tinyText
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	color: #333333;
+	text-decoration: none;
+}
+.refreshButton
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #333333;
+	height: 16px;
+	width: 45px;
+}
+.menuText
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-transform: lowercase;
+	color: #666666;
+}
+.menuText:Hover
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-transform: lowercase;
+	color: #666666;
+	text-decoration: underline;
+}
+.heading2
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #666666;
+}
+.heading2 DIV
+{
+	padding-bottom: 5px;
+}
+.sectionHeading
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #666666;
+	background-image: url(../images/bar_middle.jpg);
+	background-repeat: repeat-x;
+}
+.sectionHeadingLeft
+{
+	background-image: url(../images/bar_left.jpg);
+	background-repeat: no-repeat;
+	width: 36px;
+	text-align: right;
+}
+.sectionHeadingRight
+{
+	background-image: url(../images/bar_right.jpg);
+	background-repeat: no-repeat;
+	width: 11px;
+}
+.formItem
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	font-weight: normal;
+}
+.formLabel
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+ul.breadcrumb {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	padding: 4px 0 4px 8px;
+	margin: 0;
+}
+ul.breadcrumb li {
+	float: left;
+	display: inline;
+	margin-right: 4px;
+	color: #a4a4a4;
+}
+ul.breadcrumb a {
+	color: #a4a4a4;
+	text-decoration: none;
+	background-image:url('../images/icon_breadcrumb.png');
+	background-repeat: no-repeat;
+	background-position: right 1px;
+	padding: 0 15px 0 0;
+}
+ul.breadcrumb a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #656464;
+}
+
+.anchorText
+{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 12px;
+	color: #000000;
+	word-spacing: 1pt;
+	line-height: 15px;
+	text-decoration: none;
+}
+.anchorText:Hover
+{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 12px;
+	color: #000000;
+	word-spacing: 1pt;
+	line-height: 15px;
+	text-decoration: underline;
+}
+
+/* Data Grid Styles */
+.list
+{
+	border-top: solid 1px #B1B1B1;
+	border-bottom: solid 1px #B1B1B1;
+	width: 100%;
+	clear: both;
+}
+.listFilter
+{
+	background-color: #F4F2F2;
+}
+.listHeader
+{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 10px;
+	font-weight: bold;
+	color: #494747;
+	vertical-align: bottom;
+	border-bottom: solid 1px #C1BFBF;
+	background-color: #ffffff;
+	background-image: url(../images/datagrid_header_background.jpg);
+	background-repeat: repeat-x;
+}
+.listHeader a
+{
+	color: #494747;
+}
+.listItem
+{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 10px;
+	color: #000000;
+	background-color: #F4F2F2;
+}
+.listItem:hover
+{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 10px;
+	color: #000000;
+	background-color: #E8E5E5;
+}
+.listEditItem
+{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 10px;
+	color: #000000;
+	background-color: #F4F2F2;
+}
+.listAltItem
+{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 10px;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+.listAltItem:hover
+{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 10px;
+	color: #000000;
+	background-color: #E8E5E5;
+}
+.listItemText
+{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 10px;
+	color: #000000;
+	white-space: normal;
+}
+.listItemTextInactive
+{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 10px;
+	color: #999999;
+}
+.listItemWithSeperator
+{
+	border-left: solid 1px #B1B1B1;
+}
+.listItemMouseOver
+{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 10px;
+	color: #FFFFFF;
+	background-color: #738EC5;
+}
+.listPager
+{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 10px;
+	font-weight: bold;
+	color: #000000;
+	background-color: #F7F6F6;
+	background-image: url(../images/datagrid_pager_background.jpg);
+	background-position: bottom;
+	background-repeat: repeat-x;
+	vertical-align: bottom;
+}
+.listPagerItem
+{
+	margin-right: 12px;
+}
+.listFooter
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #4C4D4D;
+	line-height: 20px;
+	text-decoration: none;
+}
+.dgMoveHandle img
+{
+	cursor:move;
+}
+.dgOnDrag
+{
+	background-color: #3ca0f0 !important;
+	border:1px dashed black;
+}
+.blic
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #666666;
+	font-weight: bold;
+	text-decoration: none;
+}
+.errorText
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #990033;
+}
+.wizardBox
+{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 10px;
+	color: #000000;
+	background-color: #F6F4F5;
+	border: solid 1px #C1BFBF;
+	padding: 5px;
+}
+
+.reptWizardHeading
+{
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 10px;
+	font-weight: bold;
+	color: #494747;
+	vertical-align: middle;
+	background-color: #F7F6F6;
+	background-repeat: repeat-x;
+	padding: 2px;
+}
+
+.reptWizardContent
+{
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 10px;
+	font-weight: normal;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.displayNotes
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	color: #FF0000;
+	text-decoration: none;
+}
+
+.groupDetails
+{
+	background-color: #F1EFF0;
+	background: url(images/sg_background.jpg) no-repeat bottom right;
+}
+.groupDetailsEmail
+{
+	background-color: #F1EFF0;
+	background: url(images/email_background.jpg) no-repeat bottom right;
+}
+
+.PromotionImage
+{
+	float: Left;
+	margin-right: 5px;
+	margin-bottom: 2px;
+}
+
+.teamText
+{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	text-transform: none;
+	color: #666666;
+	text-decoration: none;
+}
+
+.fieldHintBox
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	border: solid 1px black;
+	padding: 6px;
+	width: 150px;
+	background-color: #eeeeee;
+	position: absolute;
+	visibility: hidden;
+	z-index: 999;
+}
+.formItem textarea
+{
+	width: 600px;
+}
+
+.personalInfo
+{
+	padding: 0px 0px 10px 0px;
+}
+.family
+{
+	padding: 10px 0px 10px 0px;
+}
+.relationships
+{
+	padding: 10px 0px 10px 0px;
+}
+.peers
+{
+	padding: 10px 0px 10px 0px;
+}
+.phones
+{
+	padding: 10px 0px 10px 0px;
+}
+.phones th, .emails th, .addresses th, .contributions th
+{
+	color: #999999;
+}
+.photo
+{
+	padding: 10px 0px 10px 0px;
+}
+.emails
+{
+	padding: 10px 0px 10px 0px;
+}
+.restriction
+{
+	padding: 10px 0px 10px 0px;
+}
+.restriction ul
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.restrictionHeader
+{
+	font-size: 12px;
+	font-weight: bold;
+	color: Red;
+}
+.addresses
+{
+	padding: 10px 0px 10px 0px;
+}
+.attributeTable
+{
+	padding: 10px 0px 10px 0px;
+}
+th
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	border-bottom: 1px solid #ccc;
+	color: #999999;
+	padding-top: 10px;
+}
+th .formItem
+{
+    color: #999999;
+}
+th a
+{
+	color: #999999;
+	text-decoration: none;
+}
+
+.areaPersonFilter
+{
+	float: left;
+	position: relative;
+	margin-top: 10px;
+	padding: 10px;
+	background-color: #F4F2F2;
+	border-top: solid 1px #B1B1B1;
+	border-right: solid 1px #B1B1B1;
+	border-left: solid 1px #B1B1B1;
+	clear: both;
+}
+
+.filterSettings
+{
+	border-collapse: collapse;
+	width: 100%;
+}
+.filterSettings .formLabel
+{
+	font-size: 1.5em;
+}
+.filterSettings td
+{
+	padding: 5px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.filterSettings .smallText
+{
+	font-size: .9em;
+}
+.filterLabel
+{
+	font-size: .75em;
+	font-weight: bold;
+}
+
+/* css tooltip */
+/* usage: <a class="info" href="">help<span>this is some help text</span></a> */
+/* only the "help" text will be displayed.  On mouse over, then text inside the span will be displayed */
+a.info
+{
+	position: relative;
+	z-index: 24;
+	color: #000;
+	text-decoration: none;
+}
+
+a.info:hover
+{
+	z-index: 25;	
+}
+
+a.info span
+{
+	display: none;
+}
+
+a.info:hover span
+{
+	display: block;
+	position: absolute;
+	top: 2em;
+	left: 2em;
+	width: 15em;
+	padding: 6px;
+	border: 1px solid black;
+	background-color: #eeeeee;
+	color: #000;
+}
+#searchHeader
+{
+	visibility: hidden;
+}
+
+h1, .heading1
+{
+	color: #666666;
+	margin: 0px;
+	padding: 0px 10px 0px 0px;
+	font-size: 1.1em;
+	line-height: 1em;
+	text-align: left;
+	clear: both;
+}
+
+.formButton
+{
+	height: auto;
+	font-size: 1em;
+	margin: 5px 5px 0px 0px;
+	padding: 1px 1px 1px 1px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+	text-decoration: none;
+}
+
+input.smallText
+{
+	height: auto;
+	font-size: 1em;
+	padding: 1px 1px 1px 1px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+	text-decoration: none;
+}
+
+.advanced
+{
+	float: left;
+	position: relative;
+	margin: 10px 0px 10px 0px;
+	color: #666666;
+	text-decoration: none;
+	font-size: .75em;
+}
+.inactive
+{
+	float: right;
+	position: relative;
+	text-decoration: none;
+	font-size: .75em;
+}
+
+table.basicSearch #searchFilter, table.basicSearch #searchFilter select, table.basicSearch #searchFilter input
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+	text-decoration: none;
+}
+
+table.basicSearch ul
+{
+	display: inline;
+}
+
+table.basicSearch #searchFilter
+{
+	padding-right: 5px;
+	vertical-align: bottom;
+	text-align: right;
+}
+
+.newPersonTable
+{
+	border-collapse: collapse;
+	padding: 5px 5px 5px 0px;
+}
+
+.alert
+{
+	float: left;
+	position: relative;
+	width: 477px;
+	border: 1px solid #CCC;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 5px;
+	background-color: #edf7dc;
+	color: #911a1c;
+	font-weight: bold;
+}
+*html div .alert
+{
+	width: 100%;
+}
+
+.profileGroupCheckbox input
+{
+	margin: 0px;
+	padding: 0px;
+	height: 15px;
+	width: 15px;
+	margin-right: 2px;
+}
+
+.profileGroupCheckbox label
+{
+	vertical-align: bottom;
+	color: #999999;
+}
+
+.givingWizardItem
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	font-weight: normal;
+}
+.givingWizardLabel
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	font-weight: bold;
+	text-decoration: none;
+}
+.givingWizardFooterItem
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	font-weight: normal;
+}
+.givingWizardFooterLabel
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	font-weight: bold;
+	text-decoration: none;
+}
+.contributionList
+{
+	padding: 10px;
+}
+.dialogButtonsContainer
+{
+	height: 30px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	border-top: 1px solid Gray;
+	text-align: right;
+	background-color: #f0f0f0;
+}
+
+table.advancedSearch tr td.formLabel, table.basicSearch tr td.formLabel
+{
+	padding-left: 20px;
+}
+
+/*These relate to the modal popup*/
+.modalBackground
+{
+	background-color: Gray;
+	filter: alpha(opacity=60);
+	opacity: 0.60;
+}
+
+.modalPopup
+{
+	background-color: white;
+	border: solid 1px gray;
+	padding: 10px;
+}
+
+.main-table
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.td-header-left
+{
+	background-image: url(../images/header-left.gif);
+	background-repeat: no-repeat;
+	height: 36px;
+	width: 7px;
+}
+
+.td-header
+{
+	background-image: url(../images/header-top.gif);
+	background-repeat: repeat-x;
+	height: 36px;
+}
+
+.td-header-right
+{
+	background-image: url(../images/header-right.gif);
+	background-repeat: no-repeat;
+	height: 36px;
+	width: 7px;
+}
+
+.td-body-left
+{
+	background-image: url(../images/body-left.gif);
+	background-repeat: repeat-y;
+	height: 8px;
+	width: 7px;
+}
+
+.td-body
+{
+	background-color: white;
+}
+
+.td-body-right
+{
+	background-image: url(../images/body-right-white.gif);
+	background-repeat: repeat-y;
+	height: 8px;
+	width: 7px;
+}
+
+.td-bottom-left
+{
+	background-image: url(../images/bottom-left.gif);
+	background-repeat: no-repeat;
+}
+
+.td-bottom
+{
+	background-image: url(../images/bottom.gif);
+	background-repeat: repeat-x;
+}
+
+.td-bottom-right
+{
+	background-image: url(../images/bottom-right.gif);
+	background-repeat: no-repeat;
+	height: 8px;
+	width: 7px;
+}
+
+/*End Modal Popup CSS*/
+/*Ajax CSS*/
+.ajaxProgress
+{
+	background-color: #e5e3e4;
+	padding: 5px;
+	color: #000;
+	font-family: Arial;
+	font-size: 10pt;
+	font-weight: 700;
+	opacity:.50;
+	filter: alpha(opacity=50); 
+	-moz-opacity: 0.5;
+	height: 18px;
+	width: 80px;
+	text-align: center;
+}
+.ajaxProgress2
+{
+	background-image: url(../images/ajax-loading2.gif);
+	background-repeat: no-repeat;
+	height: 32px;
+	width: 32px;
+}
+/*Calendar CSS*/
+.ajax__calendar_container { z-index : 200000 ; background-color: #FFFFFF; border: 1px solid #ccc; }
+.arenaCalendar .ajax__calendar_title 
+{
+	font-weight: bold; 
+	cursor: pointer;
+	color:Black;
+}
+.arenaCalendar .ajax__calendar_today 
+{
+	cursor: pointer;
+	padding-top: 3px;
+	color:Black;
+}
+.arenaCalendar .ajax__calendar_container 
+{
+	padding-right: 4px; 
+	padding-left: 4px; 
+	font-size: 11px; 
+	padding-bottom: 4px; 
+	width: 170px; 
+	cursor: default; 
+	padding-top: 4px; 
+	font-family: tahoma,verdana,helvetica; 
+	position: absolute; 
+	text-align: center;
+}
+.arenaCalendar .ajax__calendar_body 
+{
+	margin: auto; 
+	overflow: hidden; 
+	width: 170px; 
+	position: relative; 
+	height: 139px;
+}
+.arenaCalendar .ajax__calendar_days 
+{
+	left: 0px; 
+	margin: auto; 
+	width: 170px; 
+	position: absolute; 
+	top: 0px; 
+	height: 139px; 
+	text-align: center;
+}
+.arenaCalendar .ajax__calendar_months 
+{
+	left: 0px; 
+	margin: auto; 
+	width: 170px; 
+	position: absolute; 
+	top: 0px; 
+	height: 139px; 
+	text-align: center;
+}
+.arenaCalendar .ajax__calendar_years 
+{
+	left: 0px; 
+	margin: auto; 
+	width: 170px; 
+	position: absolute; 
+	top: 0px; 
+	height: 139px; 
+	text-align: center;
+}
+.arenaCalendar .ajax__calendar_container TABLE 
+{
+	font-size: 11px;
+}
+.arenaCalendar .ajax__calendar_container td
+{
+  padding:0;
+} 
+.arenaCalendar .ajax__calendar_header 
+{
+	width: 100%; 
+	height: 20px;
+}
+.ajax__calendar_prev 
+{
+	background-position: 50% 50%; 
+	float: left; 
+	background-image: url(WebResource.axd?d=T5Qz2-d1avf0S4hW3i2B665Kr1UC9uiBOAaBSiOTomnclwITyQAenQ3EJBT6SAo2eX73ZleGLENR28Tgl6b0nw2&t=633259125600000000); 
+	width: 15px; 
+	cursor: pointer; 
+	background-repeat: no-repeat; 
+	height: 15px;
+}
+.ajax__calendar_next 
+{
+	background-position: 50% 50%; 
+	float: right; 
+	background-image: url(WebResource.axd?d=T5Qz2-d1avf0S4hW3i2B665Kr1UC9uiBOAaBSiOTomnclwITyQAenQ3EJBT6SAo2tfX47PabV8_xiyJ17vgr8Q2&t=633259125600000000); 
+	width: 15px; 
+	cursor: pointer; 
+	background-repeat: no-repeat; 
+	height: 15px
+}
+.arenaCalendar .ajax__calendar_footer 
+{
+	height: 15px
+}
+.arenaCalendar .ajax__calendar_today 
+{
+	cursor: pointer; 
+	padding-top: 3px;
+}
+.arenaCalendar .ajax__calendar_dayname 
+{
+	padding-right: 2px; 
+	padding-left: 2px; 
+	padding-bottom: 0px; 
+	width: 17px; 
+	padding-top: 0px; 
+	height: 17px; 
+	text-align: right
+}
+.arenaCalendar .ajax__calendar_day 
+{
+	padding-right: 2px; 
+	padding-left: 2px; 
+	padding-bottom: 0px; 
+	width: 18px; 
+	cursor: pointer; 
+	padding-top: 0px; 
+	height: 17px; 
+	text-align: right
+}
+.arenaCalendar .ajax__calendar_month 
+{
+	overflow: hidden; 
+	width: 40px; 
+	cursor: pointer; 
+	height: 44px; 
+	text-align: center
+}
+.arenaCalendar .ajax__calendar_year 
+{
+	overflow: hidden; 
+	width: 40px; 
+	cursor: pointer; 
+	height: 44px; 
+	text-align: center
+}
+.arenaCalendar .ajax__calendar_container 
+{
+	border:#000000 1px solid;
+	color: #000000; 
+	background-color: #ffffff
+}
+.arenaCalendar .ajax__calendar_footer 
+{
+	border-top: #f5f5f5 1px solid
+}
+.arenaCalendar .ajax__calendar_dayname 
+{
+	border-bottom: #f5f5f5 1px solid
+}
+.arenaCalendar .ajax__calendar_day 
+{
+	border: #ffffff 1px solid; 
+}
+.arenaCalendar .ajax__calendar_month 
+{
+	border: #ffffff 1px solid;
+}
+.arenaCalendar .ajax__calendar_year 
+{
+	border: #ffffff 1px solid;
+}
+.arenaCalendar .ajax__calendar_active .ajax__calendar_day 
+{
+	color: #75a329;
+	border: #addf59 1px solid;
+	background-color: #edf9ff; 
+}
+.arenaCalendar .ajax__calendar_active .ajax__calendar_month 
+{
+	color: #75a329;
+	border: #addf59 1px solid;
+	background-color: #edf9ff; 
+}
+.arenaCalendar .ajax__calendar_active .ajax__calendar_year 
+{
+	color: #75a329;
+	border: #addf59 1px solid;
+	background-color: #edf9ff; 
+}
+.arenaCalendar .ajax__calendar_other .ajax__calendar_day 
+{
+	color: #646464; 
+	border: #ffffff 1px solid;	
+	background-color: #ffffff; 
+}
+.arenaCalendar .ajax__calendar_hover .ajax__calendar_day 
+{
+	color: #75a329; 
+	border: #addf59 1px solid;	 
+	background-color: #edf9ff; 
+}
+.arenaCalendar .ajax__calendar_hover .ajax__calendar_month 
+{
+	color: #75a329;
+	border: #addf59 1px solid;
+	background-color: #edf9ff;
+}
+.arenaCalendar .ajax__calendar_hover .ajax__calendar_year 
+{
+	color: #75a329; 
+	border: #addf59 1px solid;
+	background-color: #edf9ff;
+}
+.arenaCalendar .ajax__calendar_hover .ajax__calendar_title 
+{
+	color: #75a329
+}
+.arenaCalendar .ajax__calendar_hover .ajax__calendar_today 
+{
+	color: #75a329;
+}
+/*End Calendar CSS*/
+
+.listSearch
+{
+	opacity: 0.70;
+	border: 1px solid black;
+	z-index: 500;
+	background-color: #eeeeee;
+	font-size:x-small;		
+	font-style: italic;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+}
+
+/* Start CA ComboBox CSS */
+.comboBox 
+{ 
+  border: 1px solid #B1B1B1; 
+  background-color: white; 
+}
+
+.comboBoxHover
+{ 
+  border: 1px solid #B1B1B1; 
+  background-color: white; 
+}
+
+.comboDropDown 
+{ 
+  border: 1px solid #868686; 
+  background-color: white; 
+  padding: 1px;
+  padding-right: 0px;
+  width: 500px;
+  cursor: default;
+}
+
+.comboTextBox
+{
+	border: 0px;
+	padding-left: 2px;
+	padding-right: 2px;
+  	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	font-weight: normal;
+}
+
+.comboTextBoxHover
+{
+  background-color: #B2B4BF; 
+}
+
+.comboItem
+{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 10px;
+	color: #000000;
+}
+
+.comboListItem
+{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 10px;
+	color: #000000;
+	background-color: #F4F2F2;
+	padding: 1px;
+}
+
+.comboListAltItem
+{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 10px;
+	color: #000000;
+	background-color: #FFFFFF;
+	padding: 1px;
+}
+
+.comboItemHover
+{
+  	font-family: Tahoma, Arial, Helvetica;
+	font-size: 10px;
+	background-color: #E8E5E5;
+	padding: 1px;
+}
+
+.comboItemSelected
+{
+  	font-family: Tahoma, Arial, Helvetica;
+	font-size: 10px;
+	background-color: #E8E5E5;
+	border: solid 1px #738EC5;
+	padding: 1px;
+}
+
+.origcomboItemHover
+{
+	background-color: #E8E5E5;
+  background-color: #B2B4BF; 
+  background-image: url(images/comboItemBg.gif);
+  font-family: Verdana; 
+  font-size: 11px; 
+  border: 1px solid #DBCE99;
+}
+
+.headingRow 
+{ 
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 10px;
+	font-weight: bold;
+	color: #494747;
+	vertical-align: bottom;
+	border-bottom: solid 1px #C1BFBF;
+	background-color: #F7F6F6; 
+	background-image: url(../images/datagrid_header_background.jpg);
+	background-repeat: repeat-x;
+}
+
+.headingCell 
+{ 
+	font-family: Tahoma, Arial, Helvetica;
+	font-size: 10px;
+	font-weight: bold;
+	color: #494747;
+	vertical-align: bottom;
+	border-bottom: solid 1px #C1BFBF;
+	background-color: #F7F6F6; 
+	background-image: url(../images/datagrid_header_background.jpg);
+	background-repeat: repeat-x;
+	text-align: left;
+	padding: 1px;
+}
+
+.dataRow 
+{ 
+  /*background-color: #F4F2F2; */
+}
+
+.dataCell 
+{ 
+  /*font-family: Tahome, Arial, Helvetica;
+  font-size: 10px; 
+  color: #000000;
+  background-color: #F4F2F2;*/
+} 
+
+/* End CA ComboBox CSS */
+
+
+/* Begin dock CSS classes */
+
+.dockCell
+{
+  padding:10px;
+}
+
+.dockHeader
+{
+	color: #777777;
+	background-color: #E0DFE3;
+	background-image: url(../images/dock_header.gif);
+	border: 1px solid #cccccc;
+	font-family: Tahoma;
+	font-weight: bold;
+	height: 22px;
+}
+
+.dockHeader .title
+{
+	padding: 3px;
+	cursor: move;
+	font-size: 11px;
+	width: 100%;
+}
+
+.dockHeader .edit
+{
+    font-size: 11px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.dockHeader .close
+{
+    font-size: 11px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.dockHeader .menu
+{
+	width: 15px;
+	padding: 1px;
+	padding-right: 3px;
+}
+
+.dockContent
+{
+	padding: 3px;
+	border: 1px solid #cccccc;
+	border-top-width: 0px;
+	background-color: white;
+	cursor: default;
+	margin-bottom: 10px;
+}
+
+a.dockMenuButton
+{
+	cursor: default;
+	display: block;
+	background: url(../images/dock_menu.gif) 0 0 no-repeat;
+	text-decoration: none;
+	width: 15px;
+	height: 14px;
+}
+
+a.dockMenuButton:hover
+{
+	cursor: pointer;
+	display: block;
+	background: url(../images/dock_menu_hover.gif) 0 0 no-repeat;
+	text-decoration: none;
+	width: 15px;
+	height: 14px;
+}
+
+a.dockMenuButton:active
+{
+	cursor: pointer;
+	display: block;
+	background: url(../images/dock_menu_active.gif) 0 0 no-repeat;
+	text-decoration: none;
+	width: 15px;
+	height: 14px;
+}
+
+a.dockMenuButtonEmpty
+{
+    display:none;
+}
+
+.dockMenuGroup
+{
+	background-color: White;
+	border: solid 1px gray;
+}
+
+.dockMenuItem
+{
+	background-color:white; 
+	padding: 3px;
+	font-family:verdana; 
+	font-size:12px; 
+	border:solid 1px white; 
+	cursor:pointer;
+}
+
+.dockMenuItemHover
+{
+	background-color:silver; 
+	padding: 3px;
+	color:black; 
+	font-family:verdana; 
+	font-size:12px; 
+	border:solid 1px gray; 
+	cursor:pointer;
+}
+
+.dockCatalog
+{	
+	max-height: 300px;
+	min-height: 200px;
+	width: 500px;
+	padding: 0px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.dockCatalogTable
+{	
+	width: 100%;
+}
+
+.dockCatalogTable td
+{
+	padding: 5px;
+}
+
+.dockCatalogCheckBoxCell
+{
+	width: 30px;
+	text-align: center;
+}
+
+.dockCatalogImageCell
+{
+	width: 50px;
+	text-align: center;
+}
+
+.dockCatalogImage
+{
+}
+
+.dockCatalogDescriptionCell
+{	
+}
+
+.dockCatalogTitle
+{
+}
+
+.dockCatalogDescription
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+.dockCatalogTable .item
+{
+}
+
+.dockCatalogTable .altItem
+{
+	background-color: #F4F2F2;
+}
+
+/* End dock CSS classes */
+
+.linkItem
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: blue;
+	font-weight: normal;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/* Add for new List*/
+.listLabel
+{
+	padding-left: 10px;
+	display:block;
+	float:left;
+	font-size: 11px;
+	color: #333333;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.reportLeftHeader
+{
+	height: 30px;
+	width: 19px;
+	background-image: url("../images/report_criteria_left_bigger.gif");
+	background-repeat: no-repeat;
+	padding-left: 2px;
+}
+
+.reportMiddleHeader
+{
+	height: 30px;
+	width: 1000px;
+	background-image: url("../images/report_criteria_middle.gif");
+	background-repeat: repeat-x;
+	padding-left: 5px;
+}
+
+.reportRightHeader
+{
+	height: 30px;
+	width: 20px;
+	background-image: url("../images/report_criteria_right.gif");
+	background-repeat: no-repeat;
+}
+
+.listWizard
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #f6f4f5;
+	border-color:#c1bfbf;
+	border-width:1px;
+	border-style:solid;
+	min-height: 500px;
+	min-width: 530px;
+}
+
+.listWizardStep
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+.metricChart
+{
+	z-index:999;
+}
+
+/* CSS for Assignments */
+
+.assignmentsLabel
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.assignmentsLabelRequired
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.assignmentsForm
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	font-weight: normal;
+}
+
+.assignmentsFormPadded
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	font-weight: normal;
+	padding-left: 5px;
+}
+
+.assignmentTypeEntryListHeading
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #666666;
+}
+
+.assignmentTypeEntryListSubheading
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #f6f4f5;
+	border-color:#c1bfbf;
+	border-width:1px;
+	border-style:solid;
+	
+}
+
+
+.assignmentTypeEntryListContainer ul {
+list-style-type: none;
+margin:0;
+padding:0;
+}
+.assignmentTypeEntryListContainer li {
+margin:0 0 20px 0;
+padding-top: 10px;
+border-top: 1px solid #ccc;
+}
+.assignmentTypeEntryListContainer h3 {
+border: 0;
+margin: 0;
+padding: 0;
+}
+.assignmentTypeEntryListContainer p {
+margin:0;
+padding:0;
+}
+.assignmentTypeEntryListContainer img {
+	border-width: 0px;
+	float: left;
+	margin-right: 10px;
+}
+
+.assignmentDetailContainer
+{
+	width: 600px;
+}
+
+.assignmentDetailHeading
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	text-transform: none;
+	color: #666666;
+	font-weight: bold;
+	text-decoration: none;
+	padding-bottom: 5px;
+}
+
+.assignmentDetailDescription
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	text-decoration: none;
+	padding: 0px;
+}
+
+.assignmentDetailTopButtons
+{
+	margin-top: 20px;
+}
+
+.assignmentDetailTable
+{
+    clear: both;
+	margin-top: 20px;
+}
+
+.assignmentDetailButton
+{
+	width: 75px;
+}
+
+.assignmentDetailResolutionTable
+{
+	margin-top: 20px;
+	width: 600px;
+	border: 1px solid gray;
+	background-color: #E3E3E3;
+}
+
+.assignmentDetailNewNoteTable
+{
+	margin-top: 20px;
+}
+
+.assignmentDetailHistoryTable
+{
+	margin-top: 20px;
+	width: 600px;
+}
+
+.assignmentDetailHistoryHeading
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	border-bottom: 1px solid #ccc;
+	color: #999999;
+	margin-bottom: 5px;
+	display: block;
+}
+
+.assignmentDetailHistoryItem
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+.assignmentDetailHistoryAltItem
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+.assignmentDetailHistoryTable .action
+{
+	font-weight: bold;
+	color: #333333;
+}
+
+.assignmentDetailHistoryTable .time
+{
+	font-weight: normal;
+	color: gray;
+	margin-left: 10px;
+	font-size: 10px;
+}
+
+.assignmentDetailHistoryTable .changes
+{
+	margin-left: 20px;
+	color: gray;
+	font-size: 10px;
+}
+
+.assignmentDetailHistoryTable .note
+{
+	margin-left: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.myAssignmentListHeader
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+	text-decoration: none;
+    border-bottom:1px solid #999999;
+	margin-top: 20px;
+    margin-bottom:3px
+}
+
+.myAssignmentListAssignmentType
+{
+	font-weight: bold;
+	font-size: 10px;
+	margin-top: 5px;
+}
+
+.myAssignmentListTable
+{
+	margin-left: 0px;
+	margin-top: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+.myAssignmentListTitle
+{
+	width: 150px;
+	vertical-align: top;
+}
+
+.myAssignmentListStatus
+{
+	width: 75px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.myAssignmentListPerson
+{
+	width: 125px;
+	vertical-align: top;
+}
+
+.myAssignmentListDueDate
+{
+	width: 75px;
+	vertical-align: top;
+}
+
+.myAssignmentListTable td
+{
+	padding: 2px;
+}
+
+.subHead {
+margin:0 0 10px 0;
+padding:0;
+font-size: .7em;
+}
+
+/* New CSS Assignments from CCV */
+.assignmentTypeEntryListContainer ul {
+list-style-type: none;
+margin:10px 0 0 0;
+padding:0;
+width: 100%;
+}
+.assignmentTypeEntryListContainer li {
+float: left;
+clear: both;
+width: 100%;
+margin:0 0 20px 0;
+padding-top: 10px;
+border-top: 1px solid #ccc;
+}
+.assignmentTypeEntryListContainer h2, .assignmentEntry h2 {
+margin: 0;
+padding: 0;
+}
+.assignmentTypeEntryListContainer h3 {
+border: 0;
+margin: 0;
+padding: 0;
+}
+.assignmentTypeEntryListContainer p {
+font-size: .7em;
+}
+.assignmentTypeEntryListContainer img {
+	border-width: 0px;
+	float: left;
+	margin-right: 10px;
+}
+
+.assignmentEntryTable
+{
+    padding-top:10px;
+}
+
+.assignmentEntry label {
+	font-size: 11px;
+	color: #333333;
+	font-weight: bold;
+}
+
+.clickToCallIcon 
+{
+    cursor: pointer;
+    float: left;   
+}
+
+.clickToCallIconNoFloat
+{
+    cursor:pointer;
+}
+
+/* Moved from default.aspx */
+#popOver
+{
+	position:absolute;
+	visibility:hidden;
+	z-index:200000; 
+	max-width: 300px;
+	width: auto;
+}
+
+#popOver table
+{
+	text-align: left;
+	border: 1px #cccccc solid;
+	font: 10px Arial, Helvetica, sans-serif; 
+	color: #000000; 
+	background-color:#FFFCF0; 
+	padding: 5px;
+}
+
+.prayerList
+{
+	list-style-type: disc;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+#voicemails
+{
+	font-family: Verdana, Arial, Helvetica, Sans-Serif;
+	font-size: 10px;
+	color: #666666;
+	text-decoration: none;
+	padding-top: 10px;
+}
+
+#voicemailHeader
+{
+	border-bottom:1px solid #999999;
+	position:relative;
+	text-align:right;
+}
+
+#voicemailHeader span
+{
+	text-align:left;
+	float:left;
+	position:relative;
+}
+
+#voicemailHeader a
+{
+	text-decoration:none;
+	color: #666666;
+	position:relative;
+}
+	
+#voicemailSettings
+{
+	clear:both;
+	display:none;
+	padding:3px;
+	background-color:#FCFCFC;
+	border-left:1px solid #999999;
+	border-right:1px solid #999999;
+	border-bottom:1px solid #999999;
+}
+
+#voicemailSettings div
+{
+	text-align:right;
+}
+
+#voicemailSettings a
+{
+	color: #666666;
+	text-decoration:none;
+	cursor: pointer;
+}
+
+#voicemailSettings a:hover
+{
+	text-decoration:underline;
+}
+
+#voicemailList
+{
+	clear:both;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+.voicemailRow
+{
+	font-family: Helvetica, Arial, Sans-Serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: Gray;
+}
+
+.voicemail td
+{
+	height:16px;
+	vertical-align:middle;
+}
+
+.voicemail img
+{
+	border:none;
+}
+
+.voicemailNameNew a
+{
+	font-family: Helvetica, Arial, Sans-Serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #666666;
+	text-decoration:none;
+}
+
+.voicemailNameNew a:hover
+{
+	color: #000000;
+}
+
+.voicemailName a
+{
+	font-family: Helvetica, Arial, Sans-Serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #C9C9C9;
+	text-decoration:none;
+}
+
+.voicemailName a:hover
+{
+	color: #000000;
+}
+
+.modalMain
+{
+	background-color:White;
+	padding:5px;
+}
+
+.modalButtons
+{
+	background-color:#e3e3e3;
+	text-align:right;
+	padding:5px;
+}
+
+.searchSuggestionLabel
+{
+	color:red;
+}
+
+.searchSuggestions
+{
+	font-style:italic;
+}
+
+.searchSuggestionContainer
+{
+	padding-bottom:7px;
+	font-size:14px;
+}
+.myRegistrations ul
+{
+	list-style:none;
+	padding:2px;
+	font-size:11px;
+	margin:0;
+}
+.myRegistrations li
+{
+	padding-bottom:5px;
+}
+.myRegistrationsDetail
+{
+	background: #E8E8E8 none repeat scroll 0 0;
+	border: 1px solid #CCCCCC;
+	min-height:40px; 
+	padding:7px;
+}
+.myRegistrationsDetail a
+{
+	color:Blue;
+	text-decoration:underline;
+}
+.myRegistrationsDetail span
+{
+	display:block;
+}
+
+.myRegistrationsImage
+{
+	float:left;
+	padding-right:5px;
+	margin-top:-4px;
+	/*padding-bottom:20px;*/
+}
+.myServing ul
+{
+	list-style:none;
+	padding:2px;
+	font-size:11px;
+	margin:0;
+}
+.myServing li
+{
+	padding-bottom:5px;
+}
+.myServingDetail
+{
+	background: #E8E8E8 none repeat scroll 0 0;
+	border: 1px solid #CCCCCC;
+	/*min-height:50px;*/ 
+	padding:7px;
+}
+.myServingDetail span
+{
+	display:block;
+}
+.myServingImage
+{
+	float:left;
+	padding-right:5px;
+	margin-top:-4px;
+	/*padding-bottom:20px;*/
+}
+.myServingMessage
+{
+}
+.myMissions ul
+{
+	list-style:none;
+	padding:2px;
+	font-size:11px;
+	margin:0;
+}
+.myMissions li
+{
+	padding-bottom:5px;
+}
+.myMissionsDetail
+{
+	background: #E8E8E8 none repeat scroll 0 0;
+	border: 1px solid #CCCCCC;
+	padding:7px;
+}
+.myMissionsDetail span
+{
+	display:block;
+}
+.myMissionsMessage
+{
+	
+}
+.myGroups ul
+{
+	list-style:none;
+	padding:2px;
+	font-size:11px;
+	margin:0;
+}
+.myGroups li
+{
+	padding-bottom:5px;
+}
+.myGroupsDetail
+{
+	background: #E8E8E8 none repeat scroll 0 0;
+	border: 1px solid #CCCCCC;
+	/*min-height:50px;*/ 
+	padding:7px;
+}
+.myGroupsDetail span
+{
+	display:block;
+}
+
+.myGroupsImage
+{
+	float:left;
+	padding-right:5px;
+	margin-top:-4px;
+	/*padding-bottom:20px;*/
+}
+.myGroupsMessage
+{
+}
+.columnHeading
+{
+    color: #999999;
+    padding-left: 5px;
+    border-bottom: #cccccc 1px solid;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+.myGroup
+{
+	font-size:80%;
+}
+
+.myGroup span
+{
+    display: block;
+}
+.myGroup div
+{
+	padding-right:5px;
+}
+.myGroupMessage
+{
+}
+.myGroup img
+{
+	padding-right:5px;
+}
+.holder
+{
+	padding: 22px 0 0 13px;
+}
+.album-wrapper
+{
+	width: 243px;
+	padding: 6px 0 0 6px; /*background: #bbd1ca;*/
+	margin: 0 auto; /* center ? */
+}
+.album
+{
+	width: 243px;
+	overflow: hidden;
+}
+.album div.scroller
+{
+	/* you MUST set a height, in certain circumstances the height cannot be calculated in IE/Safari */
+	height:220px;
+}
+.album div.scroller-item
+{
+	float: left;
+	width: 243px;
+	overflow: hidden;
+}
+.album img
+{
+	display: block;
+	width: 68px;
+	border: none;
+}
+.album-holder
+{
+	width: 245px;
+}
+.album-holder ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: 1%;
+	overflow: hidden;
+}
+.album-holder ul li
+{
+	float: left;
+	width: auto !important;
+	padding: 0 6px 5px 0;
+}
+.holder .album-btm
+{
+	/*width: 244px;*/
+	height: 35px;
+	padding: 4px 10px 0 0;
+	position: relative;
+	margin-left: -18px;
+	overflow: hidden;
+}
+.holder .album-btm a
+{
+	float: right;
+	text-indent: -9999px;
+	overflow: hidden;
+	width: 32px;
+	height: 32px;
+}
+.holder .album-btm a.left
+{
+	background: url(../images/arrow_left_blue.png) no-repeat;
+	margin-left: 10px;
+}
+.holder .album-btm a.right
+{
+	background: url(../images/arrow_right_blue.png) no-repeat;
+}
+/* Twitter Timeline */
+#twitterFeed
+{
+	background-color: #e3e0e0;
+	border: 2px solid #999;
+	margin: 5px auto 0px auto;
+	padding: 5px 20px;
+	width: 300px;
+	-moz-border-radius: 3em 1em;
+	-webkit-border-radius: 8px;
+	font-weight: normal;
+	font-size: 10px;
+}
+#twitterFeed li span a
+{
+	color: #666;
+	font-size: 10px;
+}
+#twitterFeed li a
+{
+	color: #666;
+}
+#twitterFeed ul
+{
+	list-style-type: none;
+	margin-left:0;	
+	padding:0;	
+}
+.user
+{
+	font-weight: bold;
+}
+.time a
+{
+	font-size: 9px !important;
+}
+/* Twitter Profile Images */
+.twitter-image
+{
+	padding-right: 5px;
+	vertical-align:top;
+	padding-top: 5px;
+}
+.twitter-image img
+{
+	width:40px;
+	margin:0 !important;
+	border:0;
+}
+/* New Tweet */
+.twitter-new-tweet-input
+{
+	height: 45px;
+	width: 290px;
+	margin:5px auto 0 auto;
+}
+.twitter-new-tweet-submit
+{
+	float: right;
+	margin-top: 5px;
+}
+.twitter-new-tweet-count
+{
+	font-size: 16px;
+	margin-top: 5px;
+	display: inline;
+	float: left;
+}
+/*CSS style for new list*/
+.mainPanel
+{
+	border-left:2px #cccccc solid;
+	border-right:2px #cccccc solid;
+	border-bottom:2px #cccccc solid;
+	margin: 3px 3px 3px 3px;
+}
+
+.ctrPanel
+{
+	margin: 3px 3px 3px 3px;
+	padding-bottom:2px;
+}
+
+.pnPanel
+{
+	padding-bottom:1px;
+}
+
+.imgNLButton
+{
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:4px;
+}
+
+.pnNLheader
+{
+	background-image: url(../images/NLpnHeader.gif);
+	background-repeat:repeat-x;
+	
+}
+/*end CSS for new list*/
+
+.userConfirmation ul 
+{
+	list-style: none; 
+	padding: 0;
+}
+.userConfirmation li.header
+{
+	border-bottom: 1px solid #999999;
+	color: Gray;
+}
+
+.counseling ul, .counselRequest ul
+{
+	list-style-type: square;
+	padding: 0 0 0 13px;
+	margin: 0;
+}
+
+table.fundsGrid 
+{
+	border:0px #ffffff;
+	border-collapse:collapse;
+	font-size:12px;
+}
+.attributeHistory
+{
+	color: #777777;
+	padding-left: 10px;
+}
+
+.campaign_table
+{
+	background-image: url(../images/campaign_top_gray.jpg);
+	background-repeat: no-repeat;
+	overflow: visible;
+	height: 715px;
+}
+
+.watermark
+{
+    color:Gray;
+}
+
+.edit-settings
+{
+	 position: absolute; 
+	 float: right; 
+	 top: 120px; 
+	 right: 4px;
+	 color: #bbbbbb;
+	 font-size: .8em;
+}

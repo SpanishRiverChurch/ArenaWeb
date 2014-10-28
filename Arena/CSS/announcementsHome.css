@@ -1,0 +1,149 @@
+.Rotator 
+{
+  border:solid 1px black; 
+  background-color:white;
+  cursor:default; 
+}
+.RotatorFrame 
+{
+  border:solid 1px white; 
+  width:450px; 
+  height:25px; 
+  font-family:verdana; 
+  font-size:11px; 
+  background-color:white; 
+  cursor:default;
+}
+
+.RotatorFrameOver 
+{
+  border:solid 1px darkgray; 
+  border-bottom-color:Black;
+  border-right-color:Black;
+  width:450px; 
+  height:25px; 
+  font-family:verdana; 
+  font-size:11px; 
+  background-color:white; 
+  cursor:default;
+}
+
+.ProductTitle
+{
+  font-family:Verdana;
+  font-size:12px;   
+  font-weight:bold; 
+}
+
+.ProductText
+{
+  font-family:Verdana;
+  font-size:11px;   
+  color:darkslategray;
+  width:220px;
+}
+
+.ProductPrice
+{
+  font-family:Verdana;
+  font-size:12px;   
+  font-weight:bold; 
+  color:Red; 
+}
+
+.promotionThumbItemStyle {
+	vertical-align: top;
+	padding-top: 10px;
+	padding-left:6px;
+}
+
+.promotionThumbAltItemStyle {
+	vertical-align: top;
+	padding-top: 10px;
+	padding-left:6px;
+}
+
+.promotionThumb {
+	border: solid 1px #A4A3A3;
+	position:relative;
+	float: left;
+	width: 233px;
+	height:160px;
+}
+* html div .promotionThumb { /* Tan hack for IE bug*/
+	width: 235px;
+	w\idth: 233px;
+	height:162px;
+	h\eight:162px;
+}
+.promotionThumbTitle {
+float:left;
+position:relative;
+	margin-top: 0px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	padding: 4px 0px 0px 8px;
+	font-weight: bold;
+	color: #09336D;
+	text-align: left;
+	width:225px;
+	background-color: #EFEFEF;
+}
+
+.promotionThumbImg {
+	text-align: left;
+	float: left;
+	position:relative;
+	overflow: hidden;
+	width: 233px;
+	height: 50px;
+}
+.promotionThumbImg img {
+	overflow: hidden;
+}
+
+.promotionThumbSummary {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding: 2px 5px 5px 8px;
+	position:relative;
+	float: left;
+	line-height: 1.2em;
+	background-color: #EFEFEF;
+	height:4.95em;
+	width:220px;
+}
+* html div .promotionThumbSummary { /* IE Only Settings*/
+	height:65px;
+	h\eight:63px;
+	width:235px;
+	w\idth:233px;
+}
+.promotionThumbMoreInfo {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-align: right;
+	border-top: solid 1px #A4A3A3;
+	float: right;
+	position:relative;
+	width:233px;
+background-color:#fff;
+}
+.promotionThumbMoreInfo:hover{
+	background-color: #A4A3A3;
+}
+.promotionThumbMoreInfo a {
+display:block;
+width:223px;
+padding: 5px;
+position:relative;
+}
+.promotionThumbMoreInfo a:hover {
+	color: #fff;
+	background-color: #09336D;
+}
+* html div .promotionThumbMoreInfo,* html div .promotionThumbTitle,* html div .promotionThumbMoreInfo a:hover  { 
+/* IE Only Settings*/
+	width:235px;
+	w\idth:233px;
+}

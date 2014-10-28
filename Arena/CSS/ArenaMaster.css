@@ -1,0 +1,171 @@
+﻿@charset "utf-8";
+/*CSS Document*/
+
+/*Basic reset*/
+* {margin:0;padding:0;} 
+
+/*Apply a natural box layout model to all elements*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*Begin template styling*/
+body {
+	height: auto;
+	background-color:#fff; 
+}
+
+#container {
+	min-height: 100%;
+	width: 100%; 
+	max-width: 1960px; /*set width here*/
+	min-width: 1280px; 
+	margin:0 auto;
+}
+
+#header {  
+	background-color:#888;
+	color:;
+ }
+
+#horizNav { 
+	background-color:#666; 
+	color:; 
+}
+
+#mainWrapper
+{
+    background-color: #ccc; /*Same fill as #content or sidebar*/
+    clear: both;
+}
+
+/* Single Column Template */
+
+#singleContent
+{
+    background-color: #CADBFF;
+    width: 100%;
+}
+
+/* Two Column Template with Left or Right Sidebar */
+
+#leftSidebar {
+	background-color: #eff;
+	float:left;
+	width:30%;
+	overflow: auto;
+}
+
+#rightSidebar {
+	background-color: #efe;
+	float:left;
+	width:30%;
+	overflow: auto;
+}
+
+#mainContent {
+	background-color:#eee;
+	float:left;
+	width:70%;
+	overflow: auto;
+}
+
+/* Two Column Template with Equal Column Widths */
+
+#twinLeft {
+	background-color:#eff;
+	float:left;
+	width:50%;
+	overflow: auto;
+}
+
+#twinRight {
+	background-color:#efe;
+	float:left;
+	width:50%;
+	overflow: auto;
+}
+
+/* Three Column Template with Equal Column Widths */
+
+#leftEqualCol {
+	background-color: #eff;
+	float:left;
+	width:33%;
+	overflow: auto;
+}
+
+#centerEqualCol {
+	background-color:#eee;
+	float:left;
+	width:34%;
+	overflow: auto;
+}
+
+#rightEqualCol {
+	background-color: #efe;
+	float:left;
+	width:33%;
+	overflow: auto;
+}
+
+/* Three Column Template with Sidebars Main Content Area of Variable Widths */
+
+#leftSidebarThree {
+	background-color: #eff;
+	float:left;
+	width:25%;
+	overflow: auto;
+}
+
+#leftSidebarThreeWide {
+	background-color: #eff;
+	float:left;
+	width:50%;
+	overflow: auto;
+}
+
+#mainContentThree {
+	background-color:#eee;
+	float:left;
+	width:25%;
+	overflow: auto;
+}
+
+#mainContentThreeWide {
+	background-color:#eee;
+	float:left;
+	width:50%;
+	overflow: auto;
+}
+
+#rightSidebarThree {
+	background-color: #efe;
+	float:left;
+	width:25%;
+	overflow: auto;
+}
+
+#rightSidebarThreeWide {
+	background-color: #efe;
+	float:left;
+	width:50%;
+	overflow: auto;
+}
+
+#footer {
+	background-color:#666; 
+	clear: both;
+	float: none;
+	position: static;
+}
+
+.pad { 
+	padding:1em;
+	border:0px #000 solid;
+} 
+
+
+/*dev use only */
+.r	{border:1px red solid;}
+.g	{border:1px green solid;}
+.b	{border:1px blue solid;}
+.k	{border:1px #000 solid;}

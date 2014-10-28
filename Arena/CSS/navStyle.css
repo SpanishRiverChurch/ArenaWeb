@@ -1,0 +1,137 @@
+.subNavGroup {
+position:relative;
+}
+#subNav {
+border-bottom: solid 1px #FFF;
+}
+
+/* Jeffs List nav */
+/* Left side navigation styles */
+#mod01 ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	background-color: #666666;
+}
+#mod01 li {
+	margin: 0px;
+	background: url(../Content/HtmlImages/Public/Images/General/bg_navTransDot.gif) repeat-x left top;
+}
+#mod01 li a {
+	display: block;
+	padding: 2px 5px 2px 1em;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	width: 100%;
+	background: url(../Content/HtmlImages/Public/Images/General/bg_navTransDot.gif) repeat-x left top;
+}
+html>body #mod01 li a {
+	width: auto;
+}
+#mod01 li a:hover {
+	color: #fff;
+	background-color: #09336D;
+}
+#mod01 .Level2Group li {
+	background-color:#808080;
+	
+}
+#mod02 .Level2Group li a {
+	padding: 2px 5px 2px 2em;
+	border: none;
+	font-weight: normal;
+	background: url(../Content/HtmlImages/Public/Images/General/bg_navTransDot.gif) repeat-x left top;
+}
+#mod01 .Level2Group li a:hover {
+	border:none;
+	background-color: #09336D;
+}
+
+/* end List nav*/
+.NavBar
+{
+  background-color:White; 
+  border: 0px solid black; 
+  padding: 0px;
+  padding-bottom: 0px;
+  cursor: default; 
+} 
+
+.TopTable
+{
+  background-image: url(../Include/ComponentArt/Images/item_bg.gif);
+}
+
+.TopTableHover
+{
+  background-image: url(../Include/ComponentArt/Images/item_expanded_bg.gif);
+}
+
+.TopItem
+{
+  color:Black;
+  font-family: tahoma, verdana; 
+  font-size: 11px; 
+  font-weight: bold;
+  border-top: 1px solid #888888;
+  border-bottom: 1px solid #888888;
+  border-bottom-color:#888888;
+  padding: 4px 0 2px 2px;
+  cursor:pointer;
+}
+
+.TopItemHover
+{
+  color:black;
+  font-family: tahoma, verdana; 
+  font-size: 11px; 
+  font-weight: bold;
+  border-top: 1px solid #888888;
+  border-bottom: 1px solid #888888;
+  border-bottom-color:#888888;
+  padding: 4px 0 2px 2px; 
+  cursor:pointer;
+}
+
+.TopItemExpanded
+{
+  background-image: url(../Include/ComponentArt/Images/item_expanded_bg.gif);
+  font-family: tahoma, verdana; 
+  font-size: 11px; 
+  font-weight: bold;
+  border: 1px solid #888888;
+  border-bottom-color:#888888;
+  padding-top: 4px; 
+  padding-bottom: 2px; 
+  cursor:pointer;
+}
+
+.Level2Item
+{
+  font-family: tahoma, verdana; 
+  font-size: 11px; 
+  cursor:pointer;
+}
+
+.Level2ItemHover
+{
+  font-family: tahoma, verdana; 
+  font-size: 11px; 
+  text-decoration:underline;
+  cursor:pointer;
+}
+
+.Level2Group
+{
+  background-image: url(../Include/ComponentArt/Images/group_bg.jpg);
+  border-top-color: #F0F1F5;
+  padding:0px;
+}
+
+.Empty
+{
+}
+
+

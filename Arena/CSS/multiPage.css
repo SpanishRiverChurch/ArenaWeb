@@ -1,0 +1,30 @@
+﻿.MultiPage
+{
+  background-color:White;
+  overflow:visible;
+  position:relative;
+  padding:10px;
+  top:-3px;
+  left:1px;
+  z-index:98;
+  border: 1px solid #919B9C;
+  width:100%;
+  height:100%;
+}
+
+.PageContent
+{
+  font-family:MS Sans Serif, Verdana; 
+  font-size:10px; 
+}
+
+.PageHeader
+{
+  font-size:22px;
+  font-weight:bold;
+  letter-spacing:-0.2mm;
+  font-family: verdana; 
+  color: #3F3F3F; 
+  margin-top:0px;
+  margin-bottom:0px;
+}

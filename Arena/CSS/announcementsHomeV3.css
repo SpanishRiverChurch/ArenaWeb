@@ -1,0 +1,96 @@
+.promotionThumbDisplay {
+clear: both;
+}
+.promotionThumbItemStyle {
+	vertical-align: top;
+	padding: 0px;
+	border-top: 1px solid #FFF;
+	background-color:#FFF;
+}
+
+.promotionThumbAltItemStyle {
+	vertical-align: top;
+	padding: 0px;
+	border-top:1px solid #FFF;
+	background-color:#FFF;
+}
+
+.promotionThumb {
+float: left;
+	background-image:url('../Content/HtmlImages/Public/Images/General/redesign06/global/promoBg.jpg');
+	background-repeat: no-repeat;
+	background-position: right 90px;
+	position:relative;
+	border-left:1px solid #FFF;
+	width: 258px;
+padding-bottom: 1px;
+clear: both;
+}
+.promotionThumbTitle {
+float:left;
+padding:10px 10px 2px 8px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #911A1C;
+	text-align: left;
+	width:240px;
+	position:relative;
+}
+.promotionThumbTitle a {
+font-weight: bold;
+}
+
+.promotionThumbImg {
+text-align: left;
+float: left;
+position:relative;
+background-color: #6e6e6e;
+width:258px;
+position:relative;
+height:90px;
+}
+.promotionThumbImg a {
+background-image: none;
+}
+
+.promotionThumbSummary {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding: 2px 5px 5px 8px;
+	position:relative;
+	float: left;
+	line-height: 1.2em;
+	height: 5.5em;
+	width:244px;
+
+}
+
+.promotionThumbMoreInfo {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-align: right;
+	float: right;
+	position:relative;
+	width: 258px;
+}
+.promotionThumbMoreInfo:hover{
+	background-color: #A4A3A3;
+}
+.promotionThumbMoreInfo a {
+background-image: none;
+display:block;
+width:248px;
+padding: 5px;
+position:relative;
+color: #990003;
+background-color: #FFF;
+border-bottom:none;
+}
+.promotionThumbMoreInfo a:hover {
+	color: #fff;
+	background-color: #990003;
+	text-decoration:none;
+	font-weight:normal;
+	padding: 5px;
+}

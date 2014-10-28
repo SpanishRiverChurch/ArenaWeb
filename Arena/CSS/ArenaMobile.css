@@ -1,0 +1,189 @@
+body
+{
+	background-color: #fff;
+}
+.header
+{
+    color: #999999;
+    padding-left: 5px;
+    border-bottom: #cccccc 1px solid;
+    font-size: 15px;
+}
+.formLabel
+{
+	font-size: 12px;
+	color: #333333;
+	font-weight: bold;
+	text-decoration: none;
+}
+.formItem
+{
+	font-size: 12px;
+	color: #333333;
+	font-weight: normal;
+}
+.errorText
+{
+	font-size: 12px;
+	color: #990033;
+}
+.smallText
+{
+	font-size: 12px;
+	color: #666666;
+	text-decoration: none;
+}
+.personalInfo
+{
+	padding: 0px 0px 10px 0px;
+}
+.list
+{
+	border-top: solid 1px #B1B1B1;
+	border-bottom: solid 1px #B1B1B1;
+	width: 100%;
+	clear: both;
+}
+.listHeader
+{
+	font-size: 15px;
+	font-weight: bold;
+	color: #494747;
+	vertical-align: bottom;
+	border-bottom: solid 1px #C1BFBF;
+	background-color: #F7F6F6;
+	background-image: url(../images/datagrid_header_background.jpg);
+	background-repeat: repeat-x;
+}
+.listHeaderText
+{
+	font-size: 15px;
+	font-weight: bold;
+	color: #494747;
+}
+.largeText
+{
+	font-size: 18px;
+}
+th
+{
+	font-size: 13px;
+	font-weight: normal;
+	border-bottom: 1px solid #ccc;
+	color: #999999;
+	padding-top: 10px;
+}
+td
+{
+	font-size: 13px;
+	font-weight: normal;
+}
+.important-note
+{
+	color: Red;
+	font-size: 1.3em;
+}
+
+.breadcrumbs
+{
+	font-family: Helvetica,Arial,sans-serif;
+	 position: absolute; 
+	 top: 44px; 
+	 left: 0px; 
+	 width: 100%; 
+	 /*min-height:40px; */
+	 z-index:50;
+	 background-color: #fff;
+	 border-bottom: 2px #1596DC solid;
+	 font-size: 16px;
+}
+.breadcrumbs a
+{
+	color: #2489CE;
+}
+.breadcrumbs ul
+{
+	padding: 3px 0 4px 11px;
+}
+.breadcrumbs ul li
+{
+	padding: 7px;
+	list-style-type: none;
+}
+
+/* Custom
+------------------------------------------------------------------------------*/
+.ui-header
+{
+	background-image: url(../images/mobile-nav.png);
+	background-repeat: repeat-x;
+	color: #fff;
+	text-shadow: none;
+}
+.ui-content
+{
+	border-top: 2px #1596DC solid;
+	background-color: #fff;
+}
+.ui-footer
+{
+	background: #333;
+	color: #fff;
+	text-shadow: none;
+}
+.ui-footer a.ui-link
+{
+	color: #fff;
+}
+.ui-collapsible-content
+{
+	border-bottom: 1px solid #B3B3B3;
+	border-left: 1px solid #B3B3B3;
+	border-right: 1px solid #B3B3B3;
+	background-color: #eee;
+	padding-right: 8px;
+}
+.ui-li-divider
+{
+	background: #aaa;
+}
+.ui-li .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li
+{
+	padding-right: 70px;
+}
+.ui-li-heading
+{
+	white-space: normal;
+	overflow: visible;
+}
+.ui-li-desc
+{
+	white-space: normal;
+}
+.ui-field-contain label
+{
+	font-weight: bold;
+}
+.ui-li
+{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.ui-li-has-count
+{
+	padding-right: 75px;
+}
+
+#beta-icon
+{
+	display: none;
+	margin: 0;
+	position: absolute;
+	top: 42px;
+	right: 0;
+	background: url(../images/mobilebeta.png) top right no-repeat;
+	z-index: 50;
+	width: 119px;
+	height: 122px;
+}

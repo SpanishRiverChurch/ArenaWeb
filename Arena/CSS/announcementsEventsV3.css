@@ -1,0 +1,111 @@
+.promotionThumbItemStyle {
+	vertical-align: top;
+	padding: 0px;
+	border-bottom:1px solid #FFF;
+}
+
+.promotionThumbAltItemStyle {
+	vertical-align: top;
+	padding: 0px;
+	border-bottom:1px solid #FFF;
+}
+* html div .promotionThumbAltItemStyle, * html div .promotionThumbItemStyle {
+border-top: none;
+border-bottom:2px solid #FFF;
+}
+.promotionThumb {
+	background-image:url('../Content/HtmlImages/Public/Images/General/redesign06/global/promoBg.jpg');
+	background-repeat: no-repeat;
+	background-position: right 90;
+	position:relative;
+	border-left:1px solid #FFF;
+	float: left;
+	width: 258px;
+	height:200px;
+}
+* html div .promotionThumb { /* Tan hack for IE bug*/
+	width: 258px;
+	w\idth: 258px;
+	height:198px;
+	h\eight:198px;
+}
+.promotionThumbTitle {
+	margin-top: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 4px 0px 3px 8px;
+	font-weight: bold;
+	color: #911A1C;
+	text-align: left;
+	width:250px;
+	position:relative;
+	top:92px;
+}
+
+.promotionThumbImg {
+text-align: left;
+float: left;
+position:relative;
+background-color: #6e6e6e;
+width:258px;
+position:relative;
+top:-22px;
+height:90px;
+}
+* html div .promotionThumbImg {
+width:258px;
+w\idth:258px;
+}
+.promotionThumbImg img {
+display: none;
+}
+
+.promotionThumbSummary {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding: 2px 5px 5px 8px;
+	position:relative;
+	float: left;
+	line-height: 1.2em;
+	height:5.45em;
+	width:244px;
+
+}
+* html div .promotionThumbSummary { /* IE Only Settings*/
+	height:65px;
+	h\eight:63px;
+	width:258px;
+	w\idth:258px;
+}
+.promotionThumbMoreInfo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-align: right;
+	float: right;
+	position:relative;
+	width:258px;
+}
+.promotionThumbMoreInfo:hover{
+	background-color: #A4A3A3;
+}
+.promotionThumbMoreInfo a {
+background-image: none;
+display:block;
+width:248px;
+padding: 5px;
+position:relative;
+color: #990003;
+border-bottom:none;
+}
+.promotionThumbMoreInfo a:hover {
+	color: #fff;
+	background-color: #990003;
+	text-decoration:none;
+	font-weight:normal;
+	padding: 5px;
+}
+* html div .promotionThumbMoreInfo,* html div .promotionThumbTitle,* html div .promotionThumbMoreInfo a:hover  { 
+/* IE Only Settings*/
+	width:258px;
+	w\idth:258px;
+}

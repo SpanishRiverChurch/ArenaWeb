@@ -1,0 +1,231 @@
+﻿/* This is the container for this module */
+.group-container
+{
+	display: none;
+}
+
+/* CSS For Wall */
+.group-update-start
+{
+	background-color: #FFFFFF;
+	font-size: 10px;
+	padding-bottom: 5px;
+	width: 450px;
+	/*border-bottom: 2px solid #CCC;
+	margin-bottom:10px;*/
+}
+/* This is the container for a wall */
+.group-update
+{
+	padding: 7px;
+	background: #E8E8E8 none repeat scroll 0 0;
+	border: 1px solid #CCC;
+	min-height:50px;
+}
+/* This is the person requesting a wall */
+.group-update-requestor
+{
+	font-size: 12px;
+	font-weight: bold;
+}
+/* This is the date for the wall */
+.group-update-date
+{
+	color: Gray;
+	font-size: 10px;
+	display:block;
+	text-align:right;
+	clear:left;
+}
+/* This is the text for the wall */
+.group-update-text
+{
+	font-size: 12px;	
+	padding: 13px 0px 13px 0px;
+	line-height:20px;
+}
+.group-update-comment-count
+{
+	color:Gray;
+	font-size:12px;
+	margin-left:10px;
+	font-weight:bold;
+	padding-top:5px;
+}
+/* CSS For Comments*/
+.group-update-comments
+{
+	margin-top: 7px;
+	margin-left: 15px;
+	width: 435px;
+}
+.group-update-comment
+{
+	font-size: 9px;
+	margin-left: 5px;
+	margin-bottom: 2px;
+	background: #F8F8F8 none repeat scroll 0 0;
+	border-bottom: 1px solid #F8F8F8;
+	text-align: left;
+	clear: left;
+	float: none;
+	padding: 6px 4px 6px 6px;
+	min-height: 50px;
+}
+.group-update-comment-user
+{
+	/* This class is applied to comments by the current user         background: #E8E8E8 none repeat scroll 0 0;         border-bottom: 1px solid #E8E8E8;*/
+}
+.group-update-image
+{
+	float: left;
+	padding-right: 5px;
+	text-align: left;
+}
+.group-update-commentor
+{
+	font-weight: bold;
+	font-size: 11px;
+}
+.group-update-comment-date
+{
+	color: Gray;
+}
+.group-update-comment-text
+{
+	padding-top: 2px;
+	font-size: 12px;
+	line-height:20px;
+}
+.group-update-comment-delete
+{
+	display: none;
+	cursor: pointer;
+	float: right;
+	padding-right: 5px;
+}
+.group-show-comments
+{
+	font-size: 9px;
+	margin-left: 5px;
+	margin-bottom: 2px;
+	background: #F8F8F8 none repeat scroll 0 0;
+	border-bottom: 1px solid #F8F8F8;
+	clear: left;
+	float: none;
+	padding: 6px 4px 6px 6px;
+	text-align: center;
+}
+
+/* CSS For Comment Entry */
+.group-update-comment-add
+{
+	font-size: 9px;
+	margin-left: 5px;
+	margin-bottom: 2px;
+	background: #F8F8F8 none repeat scroll 0 0;
+	border-bottom: 1px solid #F8F8F8;
+	padding: 6px 4px 6px 6px;
+}
+/* this contains the text area */
+.group-update-comment-add div
+{
+	text-align: center;
+}
+/* this contains the warning */
+.group-update-comment-add span
+{
+	color: Gray;
+}
+.group-update-comment-input
+{
+	height: 14px;
+	width: 390px;
+	font-size: 12px;
+	color: Gray;
+	overflow: hidden;
+}
+.group-update-comment-input-focus
+{
+	height: 25px;
+	color: black;
+}
+.group-update-comment-add input
+{
+	display: none;
+	font-size: 10px;
+	margin-left:12px;
+}
+
+
+/* CSS For paging */
+.prayer-show-comments a
+{
+	text-decoration: none;
+	color: #15B;
+}
+.group-wall-pagination
+{
+	font-size: 80%;
+	margin-left: 340px;
+	display: inline-block;
+}
+.group-wall-pagination a
+{
+	text-decoration: none;
+	border: solid 1px #AAE;
+	color: #15B;
+}
+.group-wall-pagination a, .group-wall-pagination span
+{
+	display: block;
+	float: left;
+	padding: 0.3em 0.5em;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+.group-wall-pagination .current
+{
+	background: #26B;
+	color: #fff;
+	border: solid 1px #AAE;
+}
+.group-wall-pagination .current.prev, .group-wall-pagination .current.next
+{
+	color: #999;
+	border-color: #999;
+	background: #fff;
+}
+.group-update-new
+{
+	padding: 10px;
+	background-color:#E8E8E8;
+	border:1px solid #CCCCCC;
+	width:430px;
+	margin-bottom:15px;
+}
+.group-update-new span
+{
+	font-weight:bold;
+}
+.group-update-new input[type=text]
+{
+	width:325px;
+}
+.group-update-new input[type=submit]
+{
+	margin-top:5px;
+	display:inline;
+}
+
+.group-update-delete
+{
+	display: none;
+	cursor: pointer;
+	float: right;
+}
+
+.group-wall-intro-text
+{
+	font-weight:bold;
+}

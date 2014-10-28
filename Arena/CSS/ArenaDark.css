@@ -1,0 +1,99 @@
+﻿body {
+	margin: 0px;
+	padding: 0px;
+	font-family: tahoma;
+	font-size: 14px;
+	color: #000000;
+	background-color: #333;
+}
+
+html {
+	background-color: #333;
+}
+
+#logo {
+	position: absolute;
+	top: 0;
+	}
+
+a, a:link, a:visited, a:active {
+	outline: none;
+	font-weight: bold;
+	color: #282828;
+}
+
+a:link
+{
+	text-decoration:unerline;
+}
+
+img {
+	border: none;
+	}
+	
+#container {
+	margin: 10px auto 0px auto;
+	padding: 0pt;
+	position:relative;
+	text-align:left;
+	width:860px;
+}
+
+#content {
+	width: 100%;
+	background-color: #fff;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 8px;
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+	}
+
+#inner {
+	background-color: #fff;
+	width: 97%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px 0px;
+	}
+
+#header {
+	text-align: left;
+	font-weight: bold;
+	color: #ffffff;
+	height: 150px;
+	width: 860px;
+}
+
+#menu {
+	float: right;
+	margin-top: 100px;
+	padding-right: 8px;
+	}
+	
+#menu img {
+	margin: 0px -3px 0px 0px;
+	padding: 0px;
+	}
+
+#footer {
+	
+	height: 44px;
+	background-image: url(../images/common-footer-bg.jpg);
+	background-repeat: repeat-x;
+	color:#505050;
+	font-family:Tahoma,Arial,Helvetica,sans-serif;
+	font-size:10px;
+	letter-spacing:1px;
+	padding:0px 0px 0px 15px;
+	text-align: left;
+}
+
+#footer a {
+	color:#505050;
+	text-decoration:none;
+	font-weight: normal;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+	}

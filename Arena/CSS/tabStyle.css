@@ -1,0 +1,32 @@
+﻿.TopGroup
+{
+  z-index:99;
+  position:relative;
+}
+
+.DefaultTab 
+{
+  color:black; 
+  background-image: url(../include/componentart/tabstrip/tab_bg.gif);
+  font-family:MS Sans Serif, Verdana; 
+  font-size:10px; 
+  cursor:default;
+}
+
+.DefaultTabHover 
+{
+  color:black; 
+  background-image: url(../include/componentart/tabstrip/hover_tab_bg.gif);
+  font-family:MS Sans Serif, Verdana; 
+  font-size:10px; 
+  cursor:default;
+}
+
+.SelectedTab 
+{
+  color:black; 
+  background-image: url(../include/componentart/tabstrip/selected_tab_bg.gif);
+  font-family:MS Sans Serif, Verdana; 
+  font-size:10px; 
+  cursor:default;
+}

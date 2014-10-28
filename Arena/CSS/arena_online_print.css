@@ -1,0 +1,486 @@
+html {
+margin: 0;
+}
+
+body {
+margin: 0;
+}
+
+body {
+	background-image:url('/images/background30.jpg');
+	background-color: #D6D2D1;
+	background-position:50% top;
+	margin:0;
+	background-repeat: repeat-x;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #333333;
+	line-height: 19px;
+	text-align: center;
+}
+a {
+	color: #393C7D;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover {
+	background-color: #D8D8D8;	
+}
+.mainBox {
+	border: 1px solid #A4A3A3;
+	width: 650px;
+	background-color: #FFFFFF;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+/* IMPORTANT! For small group leader pages and other existing public Solomon pages in old site*/
+.content {
+	clear:both;
+	position:relative;
+	width:650px;
+	padding: 10px;
+}
+* html div .content {
+	width: 650px;
+	width: 650px;
+}
+/*///////////////////*/
+.seperator {
+	background-color: #CCCCCC;
+	margin: 10px 0px 10px 0px;
+	width: 700px;  
+	height: 5px;
+	position: relative;
+}
+* html div .seperator {
+}
+
+.pageHeader {
+	background-color:#d2d1c6;
+	position: relative;
+	text-align: right;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding-right: 12px;
+	padding-left: 9px;
+	float: left;
+	width: 729px;
+	border-bottom: 1px solid #A4A3A3;
+}
+* html div .pageHeader {
+}
+.pageHeader a {
+	color: #666;
+}
+.pageHeader a:visited {
+	color: #666;
+}
+.highlightText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #08336D;
+}
+.pageFooterText {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: center;
+}
+.footerText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #4C4D4D;
+	line-height: 20px;
+	text-decoration: none;
+}
+.navText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #292A2A;
+	line-height: 20px;
+	text-decoration: none;
+}
+.navText:Hover {
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 9px; 
+	color: #08336D; 
+	text-decoration: underline;
+}
+.navSelected {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #4C4D4D;
+	line-height: 20px;
+	text-decoration: none;
+}
+.navSelected:Hover {
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #4C4D4D; 
+	text-decoration: underline;
+}
+.searchForm {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+}
+.subNavText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+	text-decoration: none;
+}
+.subNavText:Hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+	text-decoration: underline;
+}
+#pageTitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #666666;
+	float:left;
+	position:relative;
+	width: 100%;
+}
+.normalText {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	text-decoration: none;
+	line-height: 17px;
+}
+.normalText:Hover {
+	font-size: 12px;
+	color: #333333;
+	text-decoration: underline;
+}
+.boldText {
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+	text-decoration: none;
+}
+.tinyText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	color: #333333;
+	text-decoration: none;
+}
+.heading1 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	text-transform: none;
+	color: #666666;
+	font-weight: bold;
+	text-decoration: none;
+}
+.heading1:Hover {
+	font-size: 16px;
+	text-transform: none;
+	color: #666666;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.smallText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+	text-decoration: none;
+}
+.smallText:Hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+	text-decoration: underline;
+}
+.refreshButton {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #333333;
+	height:16px;
+	width:45px
+}
+.menuText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-transform: lowercase;
+	color: #666666;
+	
+}
+.menuText:Hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-transform: lowercase;
+	color: #666666;
+	text-decoration: underline;
+}
+.heading2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #666666;
+	
+}
+.formItem {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+}
+.formLabel {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	font-weight: bold;
+	text-decoration: none;
+}
+.formLabel:Hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.breadCrumbText {
+ 	font-family: Verdana, Arial, Helvetica, sans-serif;
+ 	font-size: 9px;
+ 	color: #9F9E9E;
+ 	text-decoration: none;
+}
+.breadCrumbText:Hover {
+ 	font-family: Verdana, Arial, Helvetica, sans-serif; 
+ 	font-size: 9px; 
+ 	color: #656464; 
+ 
+}
+.crccBreadCrumbText {
+ 	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+ 	font-size: 12px;
+ 	color: #68749a;
+ 	text-decoration: none;
+ 	text-transform: lowercase;
+}
+.crccBreadCrumbText:Hover {
+ 	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif; 
+ 	font-size: 12px; 
+ 	color: #f1b900; 
+}
+
+.anchorText  {  font-family: Tahoma, Arial, Helvetica; font-size: 12px; color: #000000; word-spacing: 1pt; line-height: 15px; text-decoration: none}
+.anchorText:Hover {  font-family: Tahoma, Arial, Helvetica; font-size: 12px; color: #000000; word-spacing: 1pt; line-height: 15px; text-decoration: underline}
+.list
+{
+	border-top: solid 1px #B1B1B1;
+	border-bottom: solid 1px #B1B1B1;
+	border-left: solid 1px #B1B1B1;
+	border-right: solid 1px #B1B1B1;
+	width: 100%
+}
+.listHeader 
+{
+	font-family: Tahoma, Arial, Helvetica; 
+	font-size: 10px; 
+	font-weight: bold; 
+	color: #494747; 
+	vertical-align: bottom;
+}
+.listHeader a
+{
+	color: #484747;
+}
+.listHeader a span
+{
+	vertical-align: bottom;
+	height:100%;
+	margin: 0px;
+}
+.listHeader a span img
+{
+	margin-left: 3px;
+}
+.listItem
+{
+	font-family: Tahoma, Arial, Helvetica; 
+	font-size: 10px; 
+	color: #000000;
+	background-color: #F4F2F2
+}
+.listAltItem
+{
+	font-family: Tahoma, Arial, Helvetica; 
+	font-size: 10px; 
+	color: #000000;
+	background-color: #FFFFFF
+}
+.listPager
+{
+	font-family: Tahoma, Arial, Helvetica; 
+	font-size: 10px; 
+	font-weight: bold; 
+	color: #000000; 
+	background-color: #F7F6F6;
+	background-image: url("../images/datagrid_pager_background.jpg");
+	background-position: bottom;
+	background-repeat: repeat-x;
+	vertical-align: bottom;
+}
+.listPagerItem
+{
+	margin-right: 12px;
+}
+.blic
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 14px; 
+	color: #666666; 
+	font-weight: bold; 
+	text-decoration: none
+}
+.errorText
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #990033;
+}
+.wizardBox
+{
+	font-family: Tahoma, Arial, Helvetica; 
+	font-size: 10px; 
+	color: #000000;
+	background-color: #F6F4F5;
+	border: solid 1px #C1BFBF;
+	padding: 5px;
+}
+
+.reptWizardHeading 
+{
+	font-family: Verdana, Arial, Helvetica; 
+	font-size: 10px; 
+	font-weight: bold; 
+	color: #494747; 
+	vertical-align: middle;
+	background-color: #F7F6F6;
+	background-image: url("../images/report_criteria_middle.gif");
+	background-repeat: repeat-x;
+	padding: 2px;
+}
+
+.reptWizardContent
+{
+	font-family: Verdana, Arial, Helvetica; 
+	font-size: 10px; 
+	font-weight: normal; 
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.displayNotes {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold; 
+	color: #5070A9;
+	text-decoration: none;
+}
+.groupDetails 
+{
+	width:100%;
+	border: solid 1px #C1BFBF;
+	background-color: #F1EFF0; 
+}
+.groupDetailsInfo 
+{
+	background-image: url("../images/sg_background.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+.groupDetailsEmail {
+	border-left: solid 1px #C1BFBF;
+	background-image: url("../images/email_background.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+
+.pollDisplay {
+	position: relative;
+	float: right;
+	padding-right: 30px;
+}
+.normalTightText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+.featureTitleText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #A4A3A3;
+	text-align: left;
+}
+.featureImage {
+	text-align: left;
+	float: left;
+	margin-right: 8px;
+	margin-bottom: 4px;
+}
+
+/* Poll Styles */
+.pollDisplay {
+	float:left;
+	position:relative;
+	padding-left: 0px;
+	width: 250px;
+}
+.pollHeader {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #A4A3A3;
+	text-align: left;
+}
+#featureLinks {
+	padding-left: 10px;
+	float: left;
+	position: relative;
+}
+.footerText {
+text-align:center;
+width: 100%;
+}
+.calendarWeekDate {
+font-weight:bold;
+border-bottom: 1px solid #777;
+}
+.calendarWeekItem {
+padding-bottom:5px;
+}
+.calendarWeekTitle {
+display: block;
+clear:both;
+position: relative;
+color:#fff;
+padding:5px;
+margin-top:10px;
+font-weight:bold;
+font-size:1.25em;
+border: 1px solid #777;
+background-color:#777;
+}
+.mainFeatureWrap {
+position:relative;
+float: left;
+border: 1px solid #777;
+margin-bottom: 10px;
+}
+.currentSeriesTitle {
+display:block;
+position:relative;
+color:#fff;
+padding:5px;
+font-weight:bold;
+font-size:1.25em;
+background-color:#777;
+}
+.currentSeriesImage {
+position:relative;
+}

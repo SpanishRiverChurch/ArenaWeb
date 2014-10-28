@@ -1,0 +1,169 @@
+﻿/******************************************************
+* Styles used by the Mission Trip Registration Wizard *
+******************************************************/
+
+.tripRegistration
+{
+	margin: 10px;
+}
+
+.tripRegistration table
+{
+	width: 100%;
+}
+
+.tripRegistration .alert
+{
+	margin: 10px 0px 10px 0px;
+	font-size: 1.25em;
+}
+
+.tripRegistration .verificationTable
+{
+	position: relative;
+	width: 100%;
+	clear: both;
+	line-height: 1em;
+}
+
+.tripRegistration .verificationTable tr
+{
+	position: relative;
+}
+
+.tripRegistration .verificationTable tr td
+{
+	position: relative;
+	border-bottom: 1px solid #e3e3e3;
+	padding: 7px;
+}
+
+.tripRegistrationConfirmLabel
+{
+	font-weight: normal;
+	text-align: right;
+}
+.givingWizardConfirmHeader
+{
+	font-weight: bold;
+	text-align: left;
+}
+
+.tripRegistrationConfirmItem
+{
+	font-weight: bold;
+}
+
+.paymentInfoTable, .billingInfoTable, .tripInfoTable
+{
+	clear: both;
+	border: solid 1px #CCCCCC;
+	margin-bottom: 10px;
+	background-color: #fbfeff;
+}
+
+.paymentInfoTable td, .billingInfoTable td, .tripInfoTable td
+{
+	padding: 7px;
+}
+
+.tripRegistrationHeading
+{
+	font-size: 1.5em;
+	color: #777;
+	padding-bottom: 5px;
+}
+
+.tripRegistrationSubHeading
+{
+	padding-bottom: 10px;
+}
+
+.tripRegistrationLabel, .verifyLabel
+{
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: right;
+}
+
+.verifyLabel
+{
+	color: Green;
+}
+
+.tripRegistrationRequiredLabel
+{
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: right;
+}
+
+.verifyLabel 
+{
+	font-style: italic;
+}
+
+.tripRegistrationItem
+{
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.tripRegistrationError
+{
+	padding-top: 10px;
+	font-size: 12px;
+	color: #990033;
+}
+
+.tripRegistrationConfirmationNumber
+{
+	font-weight: bold;
+}
+
+/*** Uncomment these sections to add your own button styles ***
+.nextButton, .previousButton, .finishButton, .cancelButton, .verifyButton
+{
+	font-size: 1em;
+	padding: 5px 5px 5px 22px;
+	background-color: ButtonFace;
+	border: 1px solid #dedede;
+	border-top: 1px solid #eeeeee;
+	border-left: 1px solid #eeeeee;
+	font-weight: bold;
+	cursor: pointer;
+	overflow: visible;
+	background-repeat: no-repeat;
+	background-position: 5px center;
+	background-image: url('../Content/HtmlImages/Public/Images/General/redesign06/global/icon_arrow.gif');
+	color: ButtonText;
+}
+
+.verifyButton 
+{
+	background-image: none;
+}
+
+.previousButton
+{
+	background-image: url('../Content/HtmlImages/Public/Images/General/redesign06/global/icon_arrowLeft.gif');
+}
+
+.finishButton
+{
+	background-image: url('../Content/HtmlImages/Public/Images/General/redesign06/global/icon_finish.gif');
+}
+
+.cancelButton
+{
+	background-image: url('../Content/HtmlImages/Public/Images/General/redesign06/global/icon_delete.gif');
+}
+
+.nextButton:hover, .previousButton:hover, .finishButton:hover, .cancelButton:hover, .verifyButton:hover
+{
+	background-color: #edf7dc;
+	border: 1px solid #5da537;
+}
+*/
