@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="8" virtualPath="/CheckIn/global.asax" hash="ffffffffff835730" filehash="34756a2b51ca" flags="150000" assembly="CheckIn" type="ASP.global_asax">
+  <filedeps>
+    <filedep name="/CheckIn/global.asax" />
+  </filedeps>
+</preserve>

@@ -1,0 +1,71 @@
+<%@ master language="C#" autoeventwireup="true" inherits="MasterPages_MasterPage, CheckIn" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+    <link runat="server" id="styleLink" rel="stylesheet" type="text/css" />
+    <meta runat="server" visible="false" id="metaRedirect" http-equiv="refresh" content="" />
+    <script type="text/javascript" src="Script/jquery-1.2.6.min.js"></script>
+    <script type="text/javascript" src="Script/jquery.scrollTo-min.js"></script>
+    <script type="text/javascript" src="Script/jquery.dimensions.min.js"></script>
+	<script type="text/javascript" src="Script/jScrollPane.js"></script>
+    <script type="text/javascript" src="Script/Common.js"></script>
+    <script type="text/javascript" src="Script/dom-drag.js"></script>
+    <script type="text/javascript" src="Script/XHConn.js"></script>
+    <script type="application/javascript" src="Script/fastclick.js"></script>
+	<meta id="metaTransition" visible="false" runat="server" http-equiv="Page-Exit" />
+	<meta http-equiv="PRAGMA" content="NO-CACHE" />
+
+    <script type="application/javascript">
+        window.addEventListener('load', function () {
+            FastClick.attach(document.body);
+        }, false);
+</script>
+
+</head>
+
+
+<body id="body" runat="server">
+    <script type="application/javascript">
+        window.addEventListener('load', function () {
+            FastClick.attach(document.body);
+        }, false);
+    </script>
+    <form id="form1" runat="server">
+        
+        <div unselectable="on">
+       
+            <asp:contentplaceholder id="Content" runat="server"></asp:contentplaceholder>
+        
+			<asp:PlaceHolder ID="phCustom" runat="server"></asp:PlaceHolder>
+        
+                <asp:Panel runat="server" ID="pnlCommonButtons" Visible="false">
+                    <span id="FinishedButton_Container">
+                        <asp:Button ID="btnFinished" CssClass="ActionButtonCheck_Up" runat="server" Text="Finished" onmousedown="clickButtonSound(); down(this);" onmouseup="up(this);" onmouseout="up(this);" />
+                    </span>
+                    <span id="BackButton_Container">			
+						<asp:Button ID="btnCancel" runat="server" CssClass="BackButton_Up" Text=" " onmousedown="clickButtonSound(); down(this);" onmouseup="up(this);" onmouseout="up(this);" unselectable="on"></asp:Button>
+                    </span>     
+                </asp:Panel>
+                
+                <asp:Panel ID="pnlBackgroundSound" runat="server">
+	                <bgsound id="clickButtonSound" src='<%= kiosk.Theme.MapSoundUrl("button_push.wav") %>' volume="-10000" loop="0" />
+                </asp:Panel>
+                <bgsound id="unusedSound" src="Sounds/click.wav" volume="-10000" loop="0" />
+                
+        </div>
+        
+        <div id="Wait_Message_Container" style="visibility:hidden">
+            <span id="Wait_Message"></span>
+        </div>
+                     
+        <div id="Error_Dialog_Container" style="visibility:hidden">
+			<div id="Error_Dialog_Title"></div>
+			<div id="Error_Dialog_Details"></div>
+        </div>
+        
+    </form>
+    
+</body>
+</html>
